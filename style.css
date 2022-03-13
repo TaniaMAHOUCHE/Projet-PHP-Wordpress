@@ -1,0 +1,475 @@
+/*
+Theme Name: Paola CCC
+Text Domain: paolaCCC
+Description: Theme developpé par Paola
+Author: Paola CYP
+*/
+
+
+
+body {
+    margin: 0 auto ;
+    padding: 0 auto;
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+
+   
+}
+
+header{
+    background-color: rgb(25,25,112);
+    height: 62px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+
+}
+
+
+header h1 {
+    display: inline;
+    margin-left: 40px;
+    
+}
+
+header nav {
+    display: inline-block;
+    margin-right: 40px;
+    float : right;
+
+}
+
+
+
+header nav div ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav div ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+header nav div li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 18px;
+}
+
+header nav div li a:hover {
+    background-color: rgba(235, 217, 217, 0.205)
+}
+.site-title{
+        text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+}
+
+section{
+    /* background-color: #d8d8d8; */
+    background-color:rgb(237 237 237)
+
+}
+
+div.container-grid{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4em 0;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3vmin;
+           
+}
+
+
+section.hero {
+    padding: 0;
+    height: 448px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1586348943529-beaae6c28db9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415&q=80);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.hero h1 {
+    font-size: 5em;
+} 
+
+
+/*   Les cartes*/
+
+
+section .div{
+    width: 280px;
+    height: 440px;
+    margin-right: auto;
+    margin-left: auto;
+    /* background-image: linear-gradient(to bottom right, #E34C27, #A7A7A7); */
+    /* Border styles */
+    /* border: 1px solid ; */
+    border-radius: 15px;
+    position : relative;
+}
+.div:hover{
+    box-shadow: 1px 1px 5px rgb(109, 107, 107);
+}
+.div .small-image-area{ 
+    background-color: black;
+    border-top-left-radius: 15px;
+    border-top-right-radius :15px ;
+    width: 100%;
+    height: 220px;
+
+} 
+
+.div .small-image-area img {
+    border-top-left-radius: 15px;
+    border-top-right-radius :15px ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+/*   Contenu des cartes*/
+
+.div .content {
+    background-color: #ffffff;
+    border-bottom-right-radius:15px ;
+    border-bottom-left-radius:15px ;
+    width: 100%;
+    height: 220px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+.div .content > *{
+    margin-left: 15px;
+    font-size: 1em;
+}
+
+
+.div .content  .box-buttn{
+    border-bottom-right-radius:15px ;
+    border-bottom-left-radius:15px ;
+    margin-left: 0px;
+    width: 100%;
+    position: absolute;
+    bottom : 0 ;
+}
+
+.div .content button {
+    display: block;
+    width: 200px;
+    padding: 10px  20px;
+    text-align:center;
+    border: 1px solid 	rgb(255,245,238);
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    /* background: transparent; */
+    /* background-color:rgb(25,25,112); */
+    background-image: linear-gradient(to bottom right, rgb(25,25,112), rgb(90, 90, 187));
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.div .content button a {
+    color :white ;
+    text-decoration: none;
+    font-size: large;
+}
+
+
+
+.div .content button:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    background-color: rgb(207, 207, 207);
+}
+
+.div h1 {
+    font-size: medium;
+}
+
+
+
+
+
+footer {
+    left: 0;
+    bottom: 0;
+    padding: 1em;
+    width: 100%;
+    background-color: rgb(101, 102, 101);
+    color: white;
+    text-align: center;
+}
+
+footer div ul {
+    margin: 0;
+}
+
+footer div ul li {
+    display: block;
+    text-decoration: none;
+    bottom: 0;
+}
+
+footer div ul li a{
+    color:white;
+}
+
+
+
+
+
+/*  Formulaires */
+.primary{
+    min-height: 100vh ;
+    padding: 2.5em;
+    background: #c3c7ec;
+}
+
+.container {
+background-color: #faf1fa;
+margin-left: auto;
+margin-right: auto;
+width: 400px;
+padding: 1.5em;
+border-radius: 10px;
+box-shadow: 1px 1px 15px black;
+}
+
+.div-form {
+margin: 20px;
+}
+
+.card-body {
+position: relative;
+}
+.card-body h2 {
+margin-left: 20px;
+position: relative;
+}
+
+.card-body h2::before {
+position: absolute;
+border-radius: 5px;
+height: 8px;
+/* width: 172.84px; */
+content: " ";
+display: block;
+top: 27.8px;
+left: 0px;
+right: 0px;
+
+z-index: 0;
+transform: scale(0, 1);
+transition: transform 1s ease;
+}
+
+.card-body h2:hover::before {
+background-color: midnightblue;
+transform: scale(1, 1);
+width: 172.84px;
+left: 0;
+}
+
+.card-body h2 span {
+position: relative;
+z-index: 10;
+}
+
+.div-form label {
+display: block;
+}
+
+.div-form input {
+width: 326px;
+height: 35px;
+border-radius: 4px;
+border: 1px solid #cfd0d5;
+}
+
+.div-form input:invalid {
+background-color: #ffdddd;
+border: 1px solid red;
+}
+
+.div-form input:hover {
+border: 1px solid #979997;
+}
+
+.div-form button {
+width: 332px;
+height: 39px;
+border-radius: 4px;
+border: 1px solid #cfd0d5;
+}
+
+.div-form button:hover {
+background-color: midnightblue;
+border: 1px solid #283393;
+color: white;
+}
+
+.container p {
+margin-left: 20px;
+}
+
+
+
+/*  Formulaires de connexion */
+
+#loginform-custom > * {
+    margin-left : 0 ;
+}
+
+#loginform-custom p label {
+    display: block;
+    margin: 10px 0;
+    width: 95%;
+}
+
+#loginform-custom p input[type=text] {
+    display: block;
+    width: 100% ;
+    height: 35px;
+}
+
+#loginform-custom p input[type=password] {
+    display: block;
+    width: 100% ;
+    height: 35px;
+}
+    
+#loginform-custom p input[type=submit] {
+    display: block;
+    /* width: 150px ; */
+    padding: 10px 26px;
+    border-radius: 15px;
+}
+ 
+/*  Formulaires d'inscription */
+.form-register .div-form{
+    margin: 10px 0;
+}
+
+
+.form-register .div-form input {
+    margin: 10px 0;
+    width: 95%;
+}
+
+.form-register .div-form textarea {
+    margin: 15px 0;
+    width: 95%;
+}
+
+
+/*  Formulaire Pour créer un Post*/
+
+
+.card-body-post .div-form{
+    margin: 10px 0;
+}
+
+.card-body-post .div-form input {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.card-body-post .div-form textarea {
+    margin: 15px 0;
+    width: 100%;
+}
+
+
+/*  PAGE SINGLE */ 
+
+.single-post-zone{
+    /* background-color: #283393; */
+
+}
+
+.single {
+    /* background-color: #c3c7ec; */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* PAGE SINGLE PArtie commentaire */
+.comments-area .comment-form p input[type=text] {
+    display: block;
+    width: 330px;
+    height: 35px;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+
+
+
+.comments-area .comment-form p input[type=submit] {
+    display: block;
+    padding: 1em 3em;
+    box-sizing: border-box;
+    margin: 50px 0;
+    border-radius: 15px;
+}
+.comments-area .comment-form p textarea {
+    display: block;
+    width: 100%;
+    height: 135px;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+
+
+.commentlist {
+    /* background-color: #c3c7ec; */
+    padding: 0;
+
+}
+
+.commentlist li{
+    /* background-color: #c3c7ec; */
+    list-style: none;
+    
+} 
+.commentlist .comment-body {
+    background-color: #dfe2f7e1;
+    padding-bottom: 30px;
+}
+
+.commentlist .comment-body  > *{
+    margin: 10px  0px;
+}
+
+.commentlist .comment-body .comment-author {
+    background-color: #c3c7ec;
+}
+
+.comment-respond {
+    background-color: rgb(175, 175, 175);
+}
+
+.comment-respond form {
+    background-color: rgb(233, 231, 231);
+}
